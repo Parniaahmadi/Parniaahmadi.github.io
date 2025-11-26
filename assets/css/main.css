@@ -2061,8 +2061,8 @@ input, select, textarea {
 
 /* Button */
 
-	input[type="submit"],
-	input[type="reset"],
+        input[type="submit"],
+        input[type="reset"],
 	input[type="button"],
 	button,
 	.button {
@@ -4687,3 +4687,46 @@ input, select, textarea {
 		}
 
 	}
+/* Custom enhancements */
+.about {
+        background: #f8fafc;
+        border-radius: 12px;
+        box-shadow: 0 14px 40px rgba(17, 24, 39, 0.08);
+        margin: 0 0 4rem 0;
+        padding: 3rem;
+}
+
+.about h2 {
+        font-size: 1.9rem;
+        margin: 0 0 1rem 0;
+}
+
+.about .highlights {
+        list-style: disc;
+        padding-left: 1.25rem;
+        color: #4a5568;
+        margin: 1rem 0 0 0;
+}
+
+.about .highlights li + li {
+        margin-top: 0.35rem;
+}
+
+.actions .button.primary {
+        background-color: #3c65f5;
+        color: #ffffff !important;
+        box-shadow: 0 10px 30px rgba(60, 101, 245, 0.25);
+}
+
+.actions .button.primary:hover {
+        background-color: #2b4ed2;
+        box-shadow: 0 12px 34px rgba(43, 78, 210, 0.3);
+}
+
+.split.contact a {
+        color: #3c65f5;
+}
+
+.split.contact a:hover {
+        color: #2b4ed2;
+}
